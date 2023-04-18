@@ -36,6 +36,8 @@ System.out.println("Launching Browser");
 	driver.findElement(By.name("login")).click();
 	
 	System.out.println("Logging into facebook account");
+	
+	System.out.println("Successfully loged in facebook account");
 	}
 	
     @AfterTest
